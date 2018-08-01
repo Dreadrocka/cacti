@@ -453,8 +453,13 @@ mark,
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
-  max-width: 100%;
+  max-width: 50%;
   height: auto; }
+
+.img-nav {
+  max-width: 3%;
+  height: auto;
+}
 
 .figure {
   display: inline-block; }
@@ -2545,6 +2550,7 @@ tbody.collapse.show {
 
 .navbar {
   position: relative;
+  background-color: #373737;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3172,12 +3178,17 @@ tbody.collapse.show {
 
 .jumbotron {
   padding: 2rem 1rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
+<<<<<<< HEAD
   background-color: #e9ecef;
+=======
+  background-color: #dcd0c0;
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 4rem 2rem; } }
+      padding: 2rem 2rem; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -3604,6 +3615,10 @@ button.close {
 
 .modal-footer {
   display: flex;
+<<<<<<< HEAD
+=======
+  background-color: #dcd0c0;
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   align-items: center;
   justify-content: flex-end;
   padding: 15px;
@@ -4047,6 +4062,18 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 .bg-light {
   background-color: #f8f9fa !important; }
+
+.bg-silk {
+  background-color: #dcd0c0 !important;
+}
+
+.bg-paper {
+  background-color: #f4f4f4 !important;
+}
+
+.bg-charcoal {
+  background-color: #373737 !important;
+}
 
 a.bg-light:focus, a.bg-light:hover {
   background-color: #dae0e5 !important; }
@@ -5902,10 +5929,14 @@ a:hover {
 html,
 body {
   height: 100%;
+<<<<<<< HEAD
   background-color: #333; }
+=======
+  background-color: #f4f4f4; }
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
 
 body {
-  color: #fff;
+  color: #373737;
   text-align: center;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
 
