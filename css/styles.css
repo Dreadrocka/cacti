@@ -3189,7 +3189,11 @@ tbody.collapse.show {
   padding: 2rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+<<<<<<< HEAD
+  background-color: #e9ecef;
+=======
   background-color: #dcd0c0;
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -3620,7 +3624,10 @@ button.close {
 
 .modal-footer {
   display: flex;
+<<<<<<< HEAD
+=======
   background-color: #dcd0c0;
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   align-items: center;
   justify-content: flex-end;
   padding: 15px;
@@ -5931,7 +5938,11 @@ a:hover {
 html,
 body {
   height: 100%;
+<<<<<<< HEAD
+  background-color: #333; }
+=======
   background-color: #f4f4f4; }
+>>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
 
 body {
   color: #373737;
@@ -6034,3 +6045,36 @@ body {
   .mastfoot,
   .cover-container {
     width: 42rem; } }
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani902.ani), url(http://cur.cursors-4u.net/anime/ani-10/ani902.png), auto !important;} /* End http://www.cursors-4u.com */
+
+
+
+
+header{
+  background-color:#dcd0c0;
+  padding: 20px;
+}
+body{
+  background-color: #373737;
+}
+
+img{
+   height: 50%;
+   width: 100%;
+}
+
+p{
+  color: grey;
+}
