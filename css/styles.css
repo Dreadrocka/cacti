@@ -465,6 +465,15 @@ mark,
   max-width: 50%;
   height: auto; }
 
+.img-thumbnail-small {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  max-width: 25%;
+  height: auto; }
+
 .img-nav {
   max-width: 3%;
   height: auto;
