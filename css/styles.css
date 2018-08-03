@@ -33,11 +33,6 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-  
-  @font-face {
-    font-family: "Cactus";
-    src: url("../fonts/cactus_cuties.otf") format("opentype");
-  }
 
 @media print {
   *,
@@ -354,10 +349,6 @@ template {
 [hidden] {
   display: none !important; }
 
-.main-head {
-  font-family: "cactus" !important;
-}
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -462,22 +453,8 @@ mark,
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
-  max-width: 50%;
+  max-width: 100%;
   height: auto; }
-
-.img-thumbnail-small {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0.25rem;
-  transition: all 0.2s ease-in-out;
-  max-width: 25%;
-  height: auto; }
-
-.img-nav {
-  max-width: 3%;
-  height: auto;
-}
 
 .figure {
   display: inline-block; }
@@ -2568,7 +2545,6 @@ tbody.collapse.show {
 
 .navbar {
   position: relative;
-  background-color: #373737;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3196,17 +3172,12 @@ tbody.collapse.show {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-top: 1rem;
   margin-bottom: 2rem;
-<<<<<<< HEAD
   background-color: #e9ecef;
-=======
-  background-color: #dcd0c0;
->>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 2rem 2rem; } }
+      padding: 4rem 2rem; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -3633,10 +3604,6 @@ button.close {
 
 .modal-footer {
   display: flex;
-<<<<<<< HEAD
-=======
-  background-color: #dcd0c0;
->>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
   align-items: center;
   justify-content: flex-end;
   padding: 15px;
@@ -4080,18 +4047,6 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 .bg-light {
   background-color: #f8f9fa !important; }
-
-.bg-silk {
-  background-color: #dcd0c0 !important;
-}
-
-.bg-paper {
-  background-color: #f4f4f4 !important;
-}
-
-.bg-charcoal {
-  background-color: #373737 !important;
-}
 
 a.bg-light:focus, a.bg-light:hover {
   background-color: #dae0e5 !important; }
@@ -5947,14 +5902,10 @@ a:hover {
 html,
 body {
   height: 100%;
-<<<<<<< HEAD
-  background-color: #333; }
-=======
-  background-color: #f4f4f4; }
->>>>>>> 51255fd8201c9de45d53aed426aaf14be78f05c6
+  background-color: #334; }
 
 body {
-  color: #373737;
+  color: #fff;
   text-align: center;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
 
@@ -6054,36 +6005,3 @@ body {
   .mastfoot,
   .cover-container {
     width: 42rem; } }
-
-.thumbnail {
-    position: relative;
-}
-
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
-}
-
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani902.ani), url(http://cur.cursors-4u.net/anime/ani-10/ani902.png), auto !important;} /* End http://www.cursors-4u.com */
-
-
-
-
-header{
-  background-color:#dcd0c0;
-  padding: 20px;
-}
-body{
-  background-color: #373737;
-}
-
-img{
-   height: 50%;
-   width: 100%;
-}
-
-p{
-  color: grey;
-}
