@@ -3604,6 +3604,7 @@ button.close {
 
 .modal-footer {
   display: flex;
+  background-color: #dcd0c0;
   align-items: center;
   justify-content: flex-end;
   padding: 15px;
@@ -5902,7 +5903,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333; }
+  background-color: #f4f4f4; }
 
 body {
   color: #fff;
@@ -6005,3 +6006,36 @@ body {
   .mastfoot,
   .cover-container {
     width: 42rem; } }
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani902.ani), url(http://cur.cursors-4u.net/anime/ani-10/ani902.png), auto !important;} /* End http://www.cursors-4u.com */
+
+
+
+
+header{
+  background-color:#dcd0c0;
+  padding: 20px;
+}
+body{
+  background-color: #373737;
+}
+
+img{
+   height: 50%;
+   width: 100%;
+}
+
+p{
+  color: grey;
+}
